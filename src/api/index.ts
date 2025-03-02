@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Destination, User } from '../types';
 
 // Replace with your actual API base URL
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://globetrotter1-v1bt.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
